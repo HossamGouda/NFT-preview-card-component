@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  height: 100vh;
+}
+p {
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: hsl(217, 54%, 11%);
+  justify-content: center;
+  align-items: center;
+}
+
+.container .view {
+  position: relative;
+  top: 169px;
+  left: 152px;
+  opacity: 0;
+  z-index: 3;
+}
+.content .view:hover{
+  cursor: pointer;
+  opacity: 100%;
+
+}
+.content {
+  max-width: 350px;
+  max-height: 800px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+}
+
+.fig1 img {
+  max-width: 300px;
+  max-height: 300px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.fig1 img:hover{
+  cursor: pointer;
+}
+
+.fig1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headding h1 {
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  align-self: flex-start;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.headding h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.headding p {
+  color: hsl(215, 51%, 70%);
+  margin-left: 10px;
+  margin-top: 20px;
+}
+span {
+  font-size: 18px;
+}
+
+.line {
+  background-color: hsl(215, 32%, 27%);
+  height: 1px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+.days {
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.days span:nth-child(1) {
+  color: hsl(178, 100%, 50%);
+}
+.days .b1 {
+  color: hsl(178, 100%, 50%);
+}
+.days .b1 :nth-child(2) {
+  margin-left: 5px;
+}
+
+.days .b2 :nth-child(2) {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.days .b2 {
+  color: hsl(215, 51%, 70%);
+}
+.fig2 {
+  display: flex;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.fig2 :nth-child(1) {
+  display: inline-block;
+  margin-left: 20px;
+  text-align: center;
+}
+.fig2 :nth-child(2) {
+  color: hsl(215, 51%, 70%);
+  margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+.fig2 :nth-child(3) {
+  color: hsl(0, 0%, 100%);
+  margin-left: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.fig2 :nth-child(3):hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.block1 {
+  display: inline-block;
+}
+.block {
+}
