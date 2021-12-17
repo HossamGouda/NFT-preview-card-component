@@ -3,22 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
     <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="https://raw.githubusercontent.com/HossamGouda/NFT-preview-card-component/master/images/favicon-32x32.png"
+      href="./images/favicon-32x32.png"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | NFT preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -26,39 +25,45 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        color: #eee;
       }
       .attribution a {
-        color: hsl(228, 45%, 44%);
+        color:#eee;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="content">
-        <img src="\images/icon-view.svg" alt="" class="view" />
-        <figure class="fig1">
-          <img src="https://raw.githubusercontent.com/HossamGouda/NFT-preview-card-component/master/images/image-equilibrium.jpg" alt="" class="banner" />
-        </figure>
-        <div class="headding">
-          <h1>Equilibrium #3429</h1>
-          <p>Our Equilibrium collection promotes balance and calm.</p>
-        </div>
-        <div class="days">
-          <div class="b1">
-            <img src="/images/icon-ethereum.svg" alt="" />
-            <span>0.041 ETH</span>
-          </div>
-          <div class="b2">
-            <img src="/images/icon-clock.svg" alt="" />
-            <span>3 days left</span>
+    <main>
+      <div class="container">
+        <div class="pics">
+          <img src="./images/image-equilibrium.jpg" alt="card" />
+          <div class="eye">
+            <img src="/images/icon-view.svg" alt="" />
           </div>
         </div>
-        <div class="line"></div>
-        <div class="fig2">
-          <img src="https://raw.githubusercontent.com/HossamGouda/NFT-preview-card-component/master/images/image-avatar.png" alt="" width="45" />
-          <span>Creation of</span> <span>Jules Wyvern</span>
-        </div>
+        <div class="content">
+        <h1>Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
       </div>
-    </div>
+      <div class="titles">
+        <img src="./images/icon-ethereum.svg" alt="">
+        <p>0.041 ETH</p>
+        <img src="./images/icon-clock.svg" alt="">
+        <p>3 days left</p>
+        <div class="line"></div>
+      </div>
+      <div class="footer">
+        <img src="./images/image-avatar.png" alt="">
+        <p><span class="cr">Creation of</span> Jules Wyvern</p>
+      </div>
+    </main>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Hossam Gouda</a>.
+      </div>
+      </div>
+      
   </body>
 </html>
